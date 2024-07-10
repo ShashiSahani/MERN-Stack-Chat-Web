@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/frontend/public/bg2.png") !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+body img{
+	opacity: 0.2;
+}
