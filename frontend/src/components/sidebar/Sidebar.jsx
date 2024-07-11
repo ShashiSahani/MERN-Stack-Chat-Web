@@ -6,7 +6,7 @@ import MessageContainer from "../messages/MessageContainer";
 
 function Sidebar() {
   return (
-    <div>
+    <div className="flex gap-1">
       <SearchInput />
       <div className="divider divide-gray-900 px-5"></div>
       <ConversationsContainter />
